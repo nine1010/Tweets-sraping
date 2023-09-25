@@ -158,7 +158,7 @@ def init_driver(headless=True, proxy=None, show_images=False, option=None, firef
 
 def log_search_page(driver, since, until_local, lang, display_type, words, to_account, from_account, mention_account,
                     hashtag, filter_replies, proximity,
-                    geocode, minreplies, minlikes, minretweets):
+                    geocode, minreplies, minlikes, minretweets, ):
     """ Search for this query between since and until_local"""
     # format the <from_account>, <to_account> and <hash_tags>
     from_account = "(from%3A" + from_account + ")%20" if from_account is not None else ""
